@@ -1,0 +1,10 @@
+/*
+Theme Name: HIP
+Author: Liam Wooding
+Description: Theme for the Hastings Independent Press Wordpress site
+Version: 0.1
+*/
+
+h1.site-title {
+  background: url('/images/masthead.gif');
+}
