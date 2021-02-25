@@ -1467,9 +1467,9 @@ HEADER STYLES
 }
 #logo a {
   display: block;
-  height: 7.9vw;
+  height: 15.8vw;
   background: url("../images/masthead.png");
-  background-size: 45vw auto;
+  background-size: 90vw auto;
   background-repeat: no-repeat;
   text-indent: -9999px;
 }
@@ -2026,6 +2026,11 @@ view.
   /*********************
   HEADER STYLES
   *********************/
+  #logo a {
+    height: 7.9vw;
+    background-size: 45vw auto;
+  }
+
   /*********************
   NAVIGATION STYLES
   *********************/

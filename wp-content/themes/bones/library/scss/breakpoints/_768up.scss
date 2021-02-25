@@ -33,7 +33,12 @@ HEADER STYLES
 
 .header {}
 
-	#logo {}
+#logo {
+  a {
+    height: 7.9vw;
+    background-size: 45vw auto;
+  }
+}
 
 /*********************
 NAVIGATION STYLES
