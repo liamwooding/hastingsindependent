@@ -25,7 +25,9 @@
 								</header>
 
 								<section class="entry-content cf">
-                  <?php the_post_thumbnail('full'); ?>
+                  <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
+                    <?php the_post_thumbnail('full'); ?>
+                  </a>
 									<?php the_excerpt(); ?>
 								</section>
 
